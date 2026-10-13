@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import "@heroui/styles";
+
+@theme {
+  --font-bebas: "Caacupe One", sans-serif;
+}
+
+.text-shadow-drop-center {
+  animation: text-shadow-drop-center 1s ease-in-out infinite alternate;
+}
+
+@keyframes text-shadow-drop-center {
+  0% {
+    color: #FFC4C4;
+    text-shadow: 0 0 0 rgba(166, 93, 101, 0);
+  }
+
+  100% {
+    color: #EE6983;
+    text-shadow: 0 0 18px rgba(166, 93, 101, 0.35);
+  }
+}
